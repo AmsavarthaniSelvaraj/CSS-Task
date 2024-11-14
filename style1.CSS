@@ -1,0 +1,130 @@
+.button1{
+    text-decoration: none;
+    background-color: red;
+    color: black;
+    padding: 15px 20px;
+}
+.button1:hover{
+    background-color: green;
+    color: white;
+}
+.button2{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    border:green solid 1px ;
+    border-radius: 50px;
+}
+.button2:hover{
+    background-color: green;
+    color: white;
+}
+.button3{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: green solid 1px;
+
+}
+.button3:hover{
+    background-color: green;
+    color: white;
+}
+.unorder{
+    margin-top: 20px;
+padding: 50px;
+    background-color:#2795FF;
+    width: 500px;
+    height:200px;
+}
+li{
+padding: 10px;
+list-style-type: none;
+width: 250px;
+    background-color:#C9E4FF ;
+    margin: 2px;
+    color: blue;
+}
+li:hover{
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+
+}
+table,tr,th,td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+
+}
+tr:nth-child(even){
+    background-color: yellow;
+}
+tr:hover{
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+
+}
+.dum{
+    display: flex;
+
+}
+.dummy1{
+    background-color:red;
+ width: 10%;
+    height: 100px;
+    padding-top: 30px;
+
+}
+.dummy2{
+    background-color:yellow;
+    width: 10%;
+    height: 100px;
+    padding-top: 30px;
+
+}
+p{
+    background-color:black;
+    color: white;
+    width: 320px;
+    height: 30px;
+    padding: 30px;  
+    margin-top: -30px;
+}
+/* combinators */
+    /* .dummy > p{
+        color: red;
+    } */
+
+    .dumy1{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    .dumy2{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        top: 40px;
+        left: 40px;
+        z-index: 2;
+    }
+    .dumy3{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        z-index: 5;
+        position: relative;
+
+    }
+   
+
+
+
+
+
+
+
