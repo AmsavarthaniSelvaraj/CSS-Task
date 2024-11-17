@@ -1,0 +1,134 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    /* h1{
+        background-color: black;
+        
+    }
+    @media screen and (max-width:1000px) {
+        h1{
+            background-color: yellow;
+        }
+        
+    }
+    @media screen and (max-width:600px) {
+        h1{
+            background-color: blue;
+        }
+        
+    }
+
+    @media screen and (max-width:400px) {
+        h1{
+            background-color:red;
+        }
+    } */
+        
+/* h2{
+    background-color: red;
+}
+        @media screen and (min-width:400px) {
+            h2{
+                background-color: blue;
+            }
+        }
+        @media screen and (min-width:800px) {
+            h2{
+                background-color: yellow;
+            }
+        }
+        */
+        * {
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 15px;
+}
+.one{
+    background-color:#AFD83F ;
+    width: 100%;
+    height: 400px;
+}
+.two{
+    background-color: #04C0D3;
+    height: 500px;
+    margin: 1px;
+flex-basis: 32.3%;
+}
+.con-two{
+    display: flex;
+    margin-top: 15px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.con-three{
+    display: flex;
+    margin-top: 15px;
+    justify-content:space-between;
+flex-wrap: wrap;
+}
+.three{
+    background-color: #bebec9;
+    height: 250px;
+    flex-basis: 24%;
+    margin: 1px;
+}
+@media screen and (max-width:600px){
+
+    .one{
+    height: 300px;
+}
+.two{
+    flex-basis: 100%;
+    height: 150px;
+}
+.three{
+    flex-basis:48%;
+    height: 100px;
+}
+@media screen and (max-width:300px){
+
+.one{
+height: 125px;
+}
+.two{
+flex-basis: 100%;
+height: 200px;
+}
+.three{
+flex-basis:100%;
+height: 25px;
+}
+
+}
+    
+</style>
+<!-- <h1>hello</h1>
+<h2>Hi</h2> -->
+
+<div class="container">
+    
+<div class="con-one">
+    <div class="one"></div>
+</div>
+
+<div class="con-two">
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+</div>
+
+<div class="con-three">
+    
+    <div class="three"></div>
+    <div class="three"></div>
+    <div class="three"></div>
+    <div class="three"></div>
+
+</div>
+
+</div>
+
+
+
